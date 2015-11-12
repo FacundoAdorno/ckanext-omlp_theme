@@ -1,0 +1,29 @@
+<div role="main" class="hero">
+  <div class="container">
+    <div class="row row1">
+        {% block text_introductory %}
+          {% snippet 'home/snippets/text_introductory.html' %}
+        {% endblock%}
+    </div>
+    <div class="row row2">
+      <div class="span6 col1">
+        {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+      </div>
+      <div class="span6 col2">
+        {% block stats %}
+          {% snippet 'home/snippets/stats.html' %}
+        {% endblock %}
+      </div>
+    </div>
+    <div class="row row3">
+      <div class="span6 offset6">
+        {% block institutions%}
+          {% snippet 'home/snippets/attributions.html' %}
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+</div>
+</div>

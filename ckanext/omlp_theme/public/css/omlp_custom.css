@@ -1,0 +1,21 @@
+.hero {
+    background: transparent url("../images/fondo.png") repeat scroll 0% 0%;
+}
+
+.attributions-list > li {
+    display: inline-block;
+    padding: 0 2px 0 0;
+}
+
+.white-transparency {
+    /*Background opacity*/
+    background:rgba(255,255,255,0.5);
+}
+
+div#home-intro-text {
+    margin-left: 20px;
+}
+
+header.navbar.navbar-static-top.masthead {
+    padding-bottom: 10px;
+}
