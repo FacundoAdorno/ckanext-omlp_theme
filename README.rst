@@ -31,3 +31,15 @@ To install ckanext-omlp_theme:
 
      sudo service apache2 reload
 
+
+-------------------------
+In Developemnt Enviroment
+-------------------------
+
+To contribute with your own code, clone this repository. Run the following commands:
+
+     git clone https://github.com/FacundoAdorno/ckanext-omlp_theme
+     cd ckanext-omlp_theme/
+     python setup.py install
+
+Then, do the steps 1 and 4 described before.
