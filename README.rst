@@ -36,10 +36,10 @@ To install ckanext-omlp_theme:
 In Developemnt Enviroment
 -------------------------
 
-To contribute with your own code, clone this repository. Run the following commands:
+To contribute with your own code, clone this repository. Run the following commands::
 
      git clone https://github.com/FacundoAdorno/ckanext-omlp_theme
      cd ckanext-omlp_theme/
-     python setup.py install
+     python setup.py develop
 
-Then, do the steps 1 and 4 described before.
+Then, do the steps 3 and 4 described before.
