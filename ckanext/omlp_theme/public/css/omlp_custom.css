@@ -19,3 +19,7 @@ div#home-intro-text {
 header.navbar.navbar-static-top.masthead {
     padding-bottom: 10px;
 }
+
+.footer-links ul {
+    padding-left: 6%;
+}

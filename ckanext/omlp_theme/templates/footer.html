@@ -2,11 +2,13 @@
   <div class="container">
     {% block footer_content %}
     <div class="row">
-      <div class="span6 footer-links">
+      <div class="span6 offset3 footer-links">
         {% block footer_nav %}
           <ul class="unstyled">
             {% block footer_links %}
-              <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li>
+              {% if request.path != '/' %}
+                  {% snippet 'home/snippets/attributions.html' %}
+              {% endif %}
             {% endblock %}
           </ul>
         {% endblock %}
