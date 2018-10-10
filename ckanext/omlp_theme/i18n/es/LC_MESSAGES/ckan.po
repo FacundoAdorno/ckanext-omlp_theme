@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ckan 2.7.0b0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-06-21 15:47+0100\n"
-"PO-Revision-Date: 2018-10-09 11:14-0300\n"
+"PO-Revision-Date: 2018-10-10 09:45-0300\n"
 "Last-Translator: Adrià Mercader <adria.mercader@okfn.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/okfn/teams/11162/es/)\n"
 "MIME-Version: 1.0\n"
@@ -709,7 +709,7 @@ msgstr "Etiqueta del logo del sitio"
 #: ckan/templates/organization/read_base.html:19
 #: ckan/templates/user/edit_user_form.html:14
 msgid "About"
-msgstr "Acerca de"
+msgstr "Mas información"
 
 #: ckan/controllers/admin.py:55
 msgid "About page text"
@@ -897,7 +897,7 @@ msgstr "Tipo de grupo incorrecto"
 #: ckan/templates/organization/read_base.html:6
 #: ckan/templates/package/base.html:14
 msgid "Organizations"
-msgstr "Organizaciones"
+msgstr "Colecciones"
 
 #: ckan/controllers/group.py:306 ckan/controllers/home.py:62
 #: ckan/controllers/package.py:241 ckan/lib/helpers.py:834
@@ -2145,7 +2145,7 @@ msgstr "El usuario %s no está autorizado para crear grupos"
 #: ckan/logic/auth/create.py:129
 #, python-format
 msgid "User %s not authorized to create organizations"
-msgstr "El usuario %s no está autorizado para crear organizaciones"
+msgstr "El usuario %s no está autorizado para crear colecciones"
 
 #: ckan/logic/auth/create.py:145
 msgid "User {user} not authorized to create users via the API"
@@ -2205,7 +2205,7 @@ msgstr "El usuario %s no está autorizado para borrar el grupo %s"
 #: ckan/logic/auth/delete.py:103
 #, python-format
 msgid "User %s not authorized to delete organizations"
-msgstr "El usuario %s no está autorizado para eliminar organizaciones"
+msgstr "El usuario %s no está autorizado para eliminar colecciones"
 
 #: ckan/logic/auth/delete.py:107
 #, python-format
@@ -2653,7 +2653,7 @@ msgstr "Iniciar Sesión"
 
 #: ckan/templates/header.html:58 ckan/templates/user/new.html:3
 msgid "Register"
-msgstr "Registro"
+msgstr "Registrarse"
 
 #: ckan/templates/group/read_base.html:17
 #: ckan/templates/group/snippets/info.html:36 ckan/templates/header.html:103
@@ -3298,7 +3298,7 @@ msgstr "conjuntos de datos"
 
 #: ckan/templates/home/snippets/stats.html:17
 msgid "organizations"
-msgstr "Organizaciones"
+msgstr "colecciones"
 
 #: ckan/templates/home/snippets/stats.html:23
 msgid "groups"
@@ -3412,11 +3412,11 @@ msgstr "Agregar Colección"
 
 #: ckan/templates/organization/index.html:20
 msgid "Search organizations..."
-msgstr "Buscar organizaciones"
+msgstr "Buscar colecciones"
 
 #: ckan/templates/organization/index.html:29
 msgid "There are currently no organizations for this site"
-msgstr "Actualmente no existen organizaciones para este sitio"
+msgstr "Actualmente no existen colecciones para este sitio"
 
 #: ckan/templates/organization/member_new.html:32
 #: ckan/templates/user/edit_user_form.html:8
@@ -3485,7 +3485,7 @@ msgstr "Conjuntos de datos en colección: {group}"
 #: ckan/templates/organization/snippets/help.html:4
 #: ckan/templates/organization/snippets/helper.html:4
 msgid "What are Organizations?"
-msgstr "¿Qué son las Organizaciones?"
+msgstr "¿Qué son las Colecciones?"
 
 #: ckan/templates/organization/snippets/help.html:7
 msgid ""
@@ -3496,14 +3496,14 @@ msgid ""
 "individual users the right to publish datasets from that particular "
 "organisation (e.g. Office of National Statistics).</p> "
 msgstr ""
-"<p>Las organizaciones actúan como departamentos de publicación para los "
+"<p>Las colecciones actúan como departamentos de publicación para los "
 "conjuntos de datos (por ejemplo, el Departamento de Salud). Esto significa "
 "que los conjuntos de datos pueden ser publicados por y pertenecer a un "
 "departamento en vez de a un usuario individual.</p> <p>Dentro de las "
-"organizaciones, los administradores asignan roles y autorizaciones para sus "
+"colecciones, los administradores asignan roles y autorizaciones para sus "
 "miembros, dándoles a los usuarios individuales el derecho a publicar "
-"conjuntos de datos de esa organización en particular (ej: Oficina Nacional "
-"de Estadísticas).</p>"
+"conjuntos de datos de esa colección en particular (ej: Oficina Nacional de "
+"Estadísticas).</p>"
 
 #: ckan/templates/organization/snippets/helper.html:8
 msgid ""
@@ -3511,9 +3511,9 @@ msgid ""
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish. "
 msgstr ""
-"Las organizaciones en CKAN son usadas para crear, gestionar y publicar "
-"colecciones de conjuntos de datos. Los usuarios pueden tener diferentes "
-"perfiles en una organización, dependiente de su nivel de autorización para "
+"Las colecciones en CKAN son usadas para crear, gestionar y publicar "
+"agrupaciones de conjuntos de datos. Los usuarios pueden tener diferentes "
+"perfiles en una colección, dependiente de su nivel de autorización para "
 "crear, editar y publicar"
 
 #: ckan/templates/organization/snippets/organization_form.html:10
@@ -3900,8 +3900,7 @@ msgstr "Crear una nueva colección"
 
 #: ckan/templates/package/snippets/cannot_create_package.html:18
 msgid "There are no organizations to which you can assign this dataset."
-msgstr ""
-"No hay organizaciones a las que le puedas asignar este conjunto de datos."
+msgstr "No hay colecciones a las que le puedas asignar este conjunto de datos."
 
 #: ckan/templates/package/snippets/cannot_create_package.html:19
 msgid ""
@@ -4368,7 +4367,7 @@ msgstr[1] "{number} colecciones encontradas para \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:28
 msgid "No organizations found for \"{query}\""
-msgstr "Lo sentimos, no se encontraron organizaciones para \"{query}\""
+msgstr "Lo sentimos, no se encontraron colecciones para \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:29
 msgid "{number} organization found"
@@ -4378,7 +4377,7 @@ msgstr[1] "{number} colecciones encontradas"
 
 #: ckan/templates/snippets/search_result_text.html:30
 msgid "No organizations found"
-msgstr "Lo sentimos, no se encontraron organizaciones"
+msgstr "Lo sentimos, no se encontraron colecciones"
 
 #: ckan/templates/snippets/social.html:5
 msgid "Social"
@@ -4420,7 +4419,7 @@ msgstr "Mis Conjuntos de Datos"
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_organizations.html:12
 msgid "My Organizations"
-msgstr "Mis organizaciones"
+msgstr "Mis Colecciones"
 
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
@@ -4449,7 +4448,7 @@ msgstr "No eres miembro de ninguno de los grupos."
 
 #: ckan/templates/user/dashboard_organizations.html:21
 msgid "You are not a member of any organizations."
-msgstr "No eres miembro de ninguna de las organizaciones."
+msgstr "No eres miembro de ninguna de las colecciones."
 
 #: ckan/templates/user/edit.html:6 ckan/templates/user/edit_base.html:3
 #: ckan/templates/user/list.html:6 ckan/templates/user/list.html:13
