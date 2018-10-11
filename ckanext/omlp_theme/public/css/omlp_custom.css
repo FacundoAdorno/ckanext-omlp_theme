@@ -23,3 +23,11 @@ header.navbar.navbar-static-top.masthead {
 .footer-links ul {
     padding-left: 6%;
 }
+
+.homepage .stats ul li {
+    width: 33%;
+}
+
+.search-form .search-input button{
+    top: 30%;
+}
