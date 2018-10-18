@@ -31,3 +31,7 @@ header.navbar.navbar-static-top.masthead {
 .search-form .search-input button{
     top: 30%;
 }
+
+.search-form .search-input.search-giant button{
+    top: 30%;
+}
