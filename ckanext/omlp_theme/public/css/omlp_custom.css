@@ -35,3 +35,12 @@ header.navbar.navbar-static-top.masthead {
 .search-form .search-input.search-giant button{
     top: 30%;
 }
+
+.logo img{
+    width: auto;
+    height: 85px;
+}
+
+.masthead .nav-collapse{
+    padding-top: 25px;
+}
